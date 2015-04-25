@@ -1,0 +1,45 @@
+﻿生成启动时间为 2015/4/23 星期四 21:58:38。
+     1>项目“C:\Users\leip\Documents\Visual Studio 2010\Projects\Numerical Computation\CommonMethods\CommonMethods\CommonMethods.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\CommonMethods.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt eqsolvetest.cpp
+         eqsolvetest.cpp
+     1>c:\users\leip\documents\visual studio 2010\projects\numerical computation\commonmethods\commonmethods\eqsolvetest.cpp(9): warning C4305: “参数”: 从“double”到“const float”截断
+     1>c:\users\leip\documents\visual studio 2010\projects\numerical computation\commonmethods\commonmethods\eqsolvetest.cpp(9): warning C4305: “参数”: 从“double”到“const float”截断
+     1>c:\users\leip\documents\visual studio 2010\projects\numerical computation\commonmethods\commonmethods\equationsolve.h(48): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+                 c:\users\leip\documents\visual studio 2010\projects\numerical computation\commonmethods\commonmethods\equationsolve.h(45): 编译类 模板 成员函数“float EqSolve<T>::bisect(void)”时
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\leip\documents\visual studio 2010\projects\numerical computation\commonmethods\commonmethods\eqsolvetest.cpp(9): 参见对正在编译的类 模板 实例化“EqSolve<T>”的引用
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\leip\documents\visual studio 2010\projects\numerical computation\commonmethods\commonmethods\equationsolve.h(82): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+                 c:\users\leip\documents\visual studio 2010\projects\numerical computation\commonmethods\commonmethods\equationsolve.h(77): 编译类 模板 成员函数“float EqSolve<T>::ridder(void)”时
+                 with
+                 [
+                     T=float
+                 ]
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\leip\Documents\Visual Studio 2010\Projects\Numerical Computation\CommonMethods\Debug\CommonMethods.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\CommonMethods.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\leip\Documents\Visual Studio 2010\Projects\Numerical Computation\CommonMethods\Debug\CommonMethods.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\leip\Documents\Visual Studio 2010\Projects\Numerical Computation\CommonMethods\Debug\CommonMethods.lib" /MACHINE:X86 Debug\CommonMethods.exe.embed.manifest.res
+         Debug\eqsolvetest.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\CommonMethods.exe.embed.manifest" /manifest Debug\CommonMethods.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         CommonMethods.vcxproj -> C:\Users\leip\Documents\Visual Studio 2010\Projects\Numerical Computation\CommonMethods\Debug\CommonMethods.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\CommonMethods.unsuccessfulbuild”。
+         正在对“Debug\CommonMethods.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\leip\Documents\Visual Studio 2010\Projects\Numerical Computation\CommonMethods\CommonMethods\CommonMethods.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.52
